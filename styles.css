@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #cfe7ff; /* Cambiamos el color de fondo a un celeste más claro */
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+article {
+  margin-bottom: 40px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+article h2 {
+  margin-bottom: 10px;
+}
+
+.video-container,
+.image-container {
+  background-color: #f7f7f7; /* Agregamos un color de fondo sutil */
+  border-radius: 10px; /* Añadimos bordes redondeados */
+  padding: 20px; /* Añadimos un relleno interno para separar el contenido del borde */
+}
+
+.video-container {
+  margin-bottom: 20px; /* Añadimos un espacio inferior para separar el contenedor de video del siguiente elemento */
+}
+
+.video-container iframe {
+  display: block; /* Hacemos que el video se muestre como un bloque para centrarlo */
+  margin: 0 auto; /* Centramos el video horizontalmente */
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
